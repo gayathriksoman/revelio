@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
-            fm.beginTransaction().replace(R.id.content_main, new Maps()).commit();
+            fm.beginTransaction().replace(R.id.content_frame, new Maps()).commit();
 
         } else if (id == R.id.nav_manage) {
 
